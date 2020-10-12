@@ -1,29 +1,29 @@
-body{
-    height: 100;
-    width: 100;
-    display: flex;
-    position: fixed;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    background-color: #0205cc;
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #2C2F33;
 }
 
 h1, a, p {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-family: Arial, sans-serif;
 }
 
 p {
-    font-size: 18px;
-    font-style: italic;
+  font-size: 18px;
+  font-style: italic;
 }
 
 .content {
-    max-width: 900px;
-    margin: auto;
+  max-width: 900px;
+  margin: auto;
 }
 
 a:hover {
-    color: #7289DA;
+  color: #7289DA;
 }
