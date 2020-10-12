@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+
+:root {
+  --primary-blue: hsl(223, 87%, 63%);
+  --pale-blue: hsl(223, 100%, 88%);
+  --light-red: hsl(354, 100%, 66%);
+  --neutral-gray: hsl(0, 0%, 59%);
+  --dark-blue: hsl(209, 33%, 12%);
+}
+
+img {
+  max-width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.logo__container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  margin-top: 1rem;
+}
+
+.gray__title {
+  color: var(--neutral-gray);
+  margin-right: 0.35em;
+}
+
+.title p {
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.email,
+.button {
+  padding: 0.5rem;
+  font-family: inherit;
+  border-radius: 5em;
+}
+
+.email {
+  border: var(--pale-blue) 2px solid;
+}
+
+.button {
+  margin-top: 0.5rem;
+  background-color: var(--primary-blue);
+  color: white;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 7rem;
+}
+
+.icon {
+  background-color: white;
+  border: var(--pale-blue) 2px solid;
+  color: var(--primary-blue);
+  padding: 0.5em;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.icon:hover {
+  background-color: var(--primary-blue);
+  color: white;
+  border: none;
+  transition: all 0.3 ease;
+}
+
+.icon + .icon {
+  margin-left: 0.25rem;
+}
+
+.copyright {
+  font-size: 12px;
+  margin-top: 0.5rem;
+  color: var(--neutral-gray);
+  text-align: center;
+}
+
+@media (min-width: 700px) {
+  .form {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .email {
+    width: 50%;
+  }
+
+  .dashboard {
+    max-width: 80%;
+  }
+
+  .button {
+    margin-top: 0;
+    width: 20%;
+    margin-left: 0.5rem;
+  }
+}
