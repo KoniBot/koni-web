@@ -1,4 +1,5 @@
-# koni-web
-Website for konibot =>> https://konibot.xyz
+## Koni Open Source For Website
 
-test
+# Tutorial Coming Soon! :smile:
+
+## :warning: You must get written permisson to use our Bot/Website to contact us [Click Here](https://konibot.xyz)
