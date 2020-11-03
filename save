@@ -1,0 +1,30 @@
+          <div class="temp">
+            <img src="https://cdn.discordapp.com/avatars/458374062888976384/a_80ca0dd9e031ca03ceadfe57c65336c0.gif?size=4096" alt="avatar" class="img-circle-small">
+            <span class="status-online bottomRight">&nbsp</span>
+            <figcaption> Madness </figcaption>
+          </div>
+
+          <span style="display:inline-block; width: 100px;"></span>
+          
+          <div class="temp">
+            <img src="https://cdn.discordapp.com/avatars/458374062888976384/a_80ca0dd9e031ca03ceadfe57c65336c0.gif?size=4096" alt="avatar" class="img-circle-small">
+            <span class="status-away bottomRight">&nbsp</span>
+          </div>
+          <h5 class="title is-5" style="font-size: 30px; color: rgb(78, 114, 212); font-weight: 700;">ItzMythOffical#6562</h5></a>
+            <p class="subtitle is-6">Night MC Founder & CEO</p>
+
+          <span style="display:inline-block; width: 100px;"></span>
+
+          <div class="temp">
+            <img src="https://cdn.discordapp.com/avatars/458374062888976384/a_80ca0dd9e031ca03ceadfe57c65336c0.gif?size=4096" alt="avatar" class="img-circle-small">
+            <span class="status-dnd bottomRight">&nbsp</span>
+            <figcaption> Madness </figcaption>
+          </div>
+
+          <span style="display:inline-block; width: 100px;"></span>
+
+          <div class="temp">
+            <img src="https://cdn.discordapp.com/avatars/458374062888976384/a_80ca0dd9e031ca03ceadfe57c65336c0.gif?size=4096" alt="avatar" class="img-circle-small">
+            <span class="status-offline bottomRight">&nbsp</span>
+            <figcaption> Madness </figcaption>
+          </div>
